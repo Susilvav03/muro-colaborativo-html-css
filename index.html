@@ -35,6 +35,8 @@
             </p>
         </article>
 
+        <hr class="divider"/><!-- Coder 26 -->
+
         <article>
             
             <p class="contenedor">
@@ -45,11 +47,15 @@
 
         </article>
 
+        <hr class="divider"/><!-- Coder 26 -->
+
         <article class="qoute_container">
             <blockquote class="blockquote"> 
                 “The prison-house is the world of sight, the light of the fire is the sun, and you will not misapprehend me if you interpret the journey upwards to be the ascent of the soul into the intellectual world according to my poor belief, which, at your desire, I have expressed—whether rightly or wrongly God knows.”
             </blockquote>
         </article>
+
+        <hr class="divider"/><!-- Coder 26 -->
 
         <section class="services">
             <h2>nuestros servicios</h2>
@@ -88,7 +94,29 @@
             </aside>
         </section>
 
-        
+
+    <section id="patients" class="form-section">
+        <h2>Register Patient</h2>
+        <form id="patientForm">
+            <input type="text" name="full_name" placeholder="Full Name" required><br>
+            <input type="date" name="birth_date" placeholder="Birth Date" required><br>
+            <select name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="Other">Other</option>
+            </select><br>
+            <input type="text" name="contact_number" placeholder="Contact Number"><br>
+            <input type="email" name="email" placeholder="Email"><br>
+            <input type="text" name="address" placeholder="Address"><br>
+            <input type="text" name="blood_type" placeholder="Blood Type"><br>
+            <button type="submit">Register Patient</button>
+        </form>
+        <div id="patientResult"></div>
+    </section>
+
+        <hr class="divider"/><!-- Coder 26 -->
+
         <form class="output--" oninput="resultado.value=parseInt(x.value) + parseInt(y.value)">
             <input type="number" name="x">
             <input type="number" name="y">
@@ -110,6 +138,8 @@
             <a href="https://api.whatsapp.com/send?phone=573004628624" target="_blank"> <!-- coder 25 -->
                 <img src="./img/logo_whatsapp.png" alt="Logo WhatsApp" width="30"></a> <!-- coder 25 -->
         </div>
+
+        <hr class="divider"/><!-- Coder 26 -->
 
         <div class="virtualClock">
             <h2>Current Time</h2>
